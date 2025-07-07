@@ -11,8 +11,9 @@ export default function Contact() {
           <div>
             <h2 className="text-2xl font-semibold mb-4">Get In Touch</h2>
             <p className="text-muted-foreground mb-6">
-              I'm always interested in hearing about new opportunities and interesting projects. 
-              Whether you have a question or just want to say hi, I'll try my best to get back to you!
+              I'm always interested in hearing about new opportunities, exciting projects, and 
+              collaborations. Whether you have a question about my work or just want to connect, 
+              I'd love to hear from you!
             </p>
             
             <div className="space-y-4">
@@ -22,7 +23,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">your.email@example.com</p>
+                  <p className="text-muted-foreground">pscholtens2001@gmail.com</p>
                 </div>
               </div>
               
@@ -32,7 +33,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+1 (250) 936-8063</p>
                 </div>
               </div>
               
@@ -42,18 +43,44 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-muted-foreground">Your City, Country</p>
+                  <p className="text-muted-foreground">Vancouver, BC, Canada</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-3">
+                <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
+                  <span className="text-primary text-sm">🎓</span>
+                </div>
+                <div>
+                  <p className="font-medium">Status</p>
+                  <p className="text-muted-foreground">Computer Engineering Student at UBC</p>
                 </div>
               </div>
             </div>
             
             <div className="mt-8">
               <h3 className="text-lg font-semibold mb-4">Find Me Online</h3>
-              <div className="flex space-x-4">
-                <Button variant="outline" size="sm">LinkedIn</Button>
-                <Button variant="outline" size="sm">GitHub</Button>
-                <Button variant="outline" size="sm">Twitter</Button>
-                <Button variant="outline" size="sm">Portfolio</Button>
+              <div className="flex flex-wrap gap-3">
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://linkedin.com/in/peter-scholtens" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://github.com/speedypetey" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="mailto:pscholtens2001@gmail.com">
+                    Email
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="tel:+12509368063">
+                    Call
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
@@ -88,6 +115,13 @@ export default function Contact() {
               
               <Button type="submit" className="w-full">Send Message</Button>
             </form>
+            
+            <div className="mt-6 pt-6 border-t">
+              <p className="text-sm text-muted-foreground text-center">
+                Currently seeking internship and full-time opportunities in software development, 
+                DevOps, and emerging technologies.
+              </p>
+            </div>
           </div>
         </div>
       </div>

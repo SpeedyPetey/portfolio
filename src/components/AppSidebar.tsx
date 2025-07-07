@@ -32,11 +32,11 @@ export function AppSidebar() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">P</span>
+              <span className="text-primary-foreground font-bold text-sm">PS</span>
             </div>
             <div>
               <h2 className="text-lg font-semibold">Portfolio</h2>
-              <p className="text-xs text-muted-foreground">Your Name</p>
+              <p className="text-xs text-muted-foreground">Peter Scholtens</p>
             </div>
           </div>
           <ThemeToggle />
@@ -67,7 +67,7 @@ export function AppSidebar() {
       
       <SidebarFooter className="p-4">
         <div className="text-xs text-muted-foreground">
-          <p>© 2024 Your Name</p>
+          <p>© 2024 Peter Scholtens</p>
           <p>Built with React & TypeScript</p>
         </div>
       </SidebarFooter>
